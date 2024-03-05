@@ -29,6 +29,8 @@ def click_event(event, x, y, flags, params):
         # displaying the coordinates 
         # on the Shell 
         print(x, ' ', y) 
+        cord_list.append([x,y])
+        print(cord_list)
   
         # displaying the coordinates 
         # on the image window 
